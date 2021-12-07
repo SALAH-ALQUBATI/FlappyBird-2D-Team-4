@@ -14,7 +14,6 @@ public class PipeSpawner : MonoBehaviour
     {
         GameObject newpipe = Instantiate(pipe);
         newpipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
-        
 
     }
 
@@ -30,7 +29,6 @@ public class PipeSpawner : MonoBehaviour
             
         }
         
-
         timer += Time.deltaTime;
         
     }

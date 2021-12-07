@@ -12,8 +12,7 @@ public class FlyLittleBird : MonoBehaviour
      void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-
+       
     }
 
     // Update is called once per frame
@@ -22,8 +21,9 @@ public class FlyLittleBird : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             rb.velocity = Vector2.up * velocity;
+          
         }
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
