@@ -14,13 +14,12 @@ public class GameManager : MonoBehaviour
         gameOverCanvas.SetActive(false);
 
     }
-
+   
     // Update is called once per frame
     public void GameOver()
     {
         gameOverCanvas.SetActive(true);
         Time.timeScale = 0;
-        
     }
 
     public void Replay()
