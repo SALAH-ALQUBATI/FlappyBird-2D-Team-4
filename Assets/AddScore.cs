@@ -8,5 +8,4 @@ public class AddScore : MonoBehaviour
     {
         Score.score++;
     }
-   
 }
